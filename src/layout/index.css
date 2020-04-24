@@ -11,6 +11,14 @@ body {
   padding: 0;
   min-height: 100%;
   min-width: 100%;
+  background-color: #f2f2f2;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 #___gatsby #gatsby-focus-wrapper {
@@ -19,8 +27,9 @@ body {
 }
 
 .layout-container {
+  position: relative;
   min-height: 100vh;
   min-width: 100vw;
   display: flex;
-  padding: 20px;
 }
+
