@@ -1,0 +1,49 @@
+.content-frame {
+    width: 87.5%;
+    height: 1500px;
+    margin-top: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+
+.frame-title {
+    position: relative;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: raleway, sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 85px;
+}
+
+.frame-title p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.frame-description {
+    position: relative;
+    margin-top: 20px;
+    color: #999999;
+    line-height: 24px;
+    font-family: raleway, sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.frame-grid {
+    position: relative;
+    margin: 90px 40px 30px 40px;
+    background-color: #F2F2F2;
+    height: 78%;
+}

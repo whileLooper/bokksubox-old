@@ -14,7 +14,6 @@ class Footer extends Component {
     return (
       <footer className="footer">
           <div className="footer-links">
-
             {SocialMediaLinks(config)}
           </div>
       </footer>
