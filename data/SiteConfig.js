@@ -9,7 +9,7 @@ const config = {
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssTitle: "Gatsby Advanced Starter RSS feed", // Title of the RSS feed
   siteFBAppID: "1825356251115265", // FB Application ID for using app insights
-  googleAnalyticsID: "UA-47311644-5", // GA tracking ID.
+  // googleAnalyticsID: "UA-47311644-5", // GA tracking ID.
   disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // Disqus shortname.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
@@ -23,25 +23,40 @@ const config = {
     "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
+    // {
+    //   label: "GitHub",
+    //   url: "https://github.com/Vagr9K/gatsby-advanced-starter",
+    //   iconClassName: "fa fa-github"
+    // },
+    // {
+    //   label: "Twitter",
+    //   url: "https://twitter.com/Vagr9K",
+    //   iconClassName: "fa fa-twitter"
+    // },
+    // {
+    //   label: "Email",
+    //   url: "mailto:vagr9k@gmail.com",
+    //   iconClassName: "fa fa-envelope"
+    // },
     {
-      label: "GitHub",
-      url: "https://github.com/Vagr9K/gatsby-advanced-starter",
-      iconClassName: "fa fa-github"
+      label: "Instagram",
+      url: "https://www.instagram.com",
+      iconClassName: "fab fa-instagram"
+    },
+    {
+      label: "Facebook",
+      url: "https://www.facebook.com",
+      iconClassName: "fab fa-facebook-f"
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/Vagr9K",
-      iconClassName: "fa fa-twitter"
-    },
-    {
-      label: "Email",
-      url: "mailto:vagr9k@gmail.com",
-      iconClassName: "fa fa-envelope"
+      url: "https://twitter.com/",
+      iconClassName: "fab fa-twitter"
     }
   ],
-  copyright: "Copyright © 2019. Advanced User", // Copyright string for the footer of the website and RSS feed.
-  themeColor: "#c62828", // Used for setting manifest and progress theme colors.
-  backgroundColor: "#e0e0e0" // Used for setting manifest background color.
+  copyright: "Copyright © 2020 BakkusBox", // Copyright string for the footer of the website and RSS feed.
+  themeColor: "#f2f2f2", // Used for setting manifest and progress theme colors.
+  backgroundColor: "#FFFFFF" // Used for setting manifest background color.
 };
 
 // Validate
